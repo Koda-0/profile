@@ -95,7 +95,7 @@ body{
   width: 100%;
 }
 
-/* ADMIN SPECIAL STYLE */
+
 .nav ul li:last-child a {
   padding: 8px 16px;
   border-radius: 8px;
@@ -680,14 +680,14 @@ button:hover {
   color: var(--secondary);
 }
 
-/* Row for First & Last name */
+
 .row {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-/* Input groups */
+
 .input-group {
   flex: 1;
   margin-bottom: 20px;
@@ -698,10 +698,10 @@ button:hover {
   color: var(--primary);
 }
 
-/* Inputs & textarea */
+
 .input-group input,
 .input-group textarea {
-  width: 100%;
+  width: 93%;
   padding: 14px 16px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -713,14 +713,14 @@ button:hover {
 }
 
 .input-group input{
-  width: 108%;
+  width: 100%;
 }
 
 .input-group textarea {
   resize: none;
 }
 
-/* Focus effect */
+
 .input-group input:focus,
 .input-group textarea:focus {
   border-color: var(--secondary);
@@ -730,9 +730,9 @@ button:hover {
 
 
 
-/* Submit button */
+
 .submit-btn {
-  width: 108%;
+  width: 100%;
   padding: 15px;
   border-radius: 12px;
   border: none;
@@ -833,7 +833,7 @@ button:hover {
 /* Responsive */
 @media (max-width: 900px) {
   .info-side {
-    max-width: 100%;
+    max-width: 105%;
   }
 }
 
@@ -845,7 +845,7 @@ button:hover {
   }
 
   .form-card {
-    padding: 25px 20px;
+    padding: 25px 15px;
   }
 }
 

@@ -335,10 +335,10 @@ export default function Index() {
       <div className="info-card">
         <h4>Follow Me</h4> <br />
         <div className="social-links">
-           <a href="#">Github</a>
-           <a href="#">LinkedIn</a>
-           <a href="#">Twitter</a>
-           <a href="#">Instagram</a>
+           <a href="https://github.com/Koda-0" title="Koda-0">Github</a>
+           <a href="https://www.linkedin.com/in/ishimwengamba-sabri-8ab36737b/" title="Ishimwengamba sabri">LinkedIn</a>
+           <a href="mailto:ishimwengambasabri@gmail.com" title="ishimwengambasabri@gmail.com">Gmail</a>
+           <a href="https://www.instagram.com/smiler_sabri/" title="smiler_sabri">Instagram</a>
         </div>
       </div>
 
