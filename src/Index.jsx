@@ -105,7 +105,7 @@ export default function Index() {
   </div>
 
   <div className="profile">
-    <img src="./src/assets/profile.png" alt="Profile picture" />
+    <img src="./profile.png" alt="Profile picture" />
   </div>
 </section>
 
@@ -191,7 +191,7 @@ export default function Index() {
   <div className="project-container">
     <div className="project">
       <img
-        src="./src/assets/Home.png"
+        src="./Home.png"
         alt="Portfolio Website Screenshot"
         className="project-image"
       />
@@ -213,28 +213,7 @@ export default function Index() {
     </div>
     <div className="project">
       <img
-        src="./src/assets/mat.png"
-        alt="Portfolio Website Screenshot"
-        className="project-image"
-      />
-      <div className="project-info">
-        <h3>Maternalhub</h3>
-        <p>
-          This is A platform That help Women Who are pregnant To Track How Their Babies Are Growing Day To Day. It's Built using Node.js,React.JS,Tailwind Css. 
-        </p>
-        <a
-          href="https://maternalhub.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-link"
-        >
-          View Project
-        </a>
-      </div>
-    </div>
-    <div className="project">
-      <img
-        src="./src/assets/mat.png"
+        src="./mat.png"
         alt="Portfolio Website Screenshot"
         className="project-image"
       />
