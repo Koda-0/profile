@@ -83,8 +83,8 @@ export default function Index() {
     <h1>👋 Hello everyone</h1>
     <h2>I am {' '}
     <span>
-      <span> Developer</span>
-      <span> Designer</span>
+      <span>Developer</span>
+      <span>Designer</span>
       <span> Gamer</span>
       <span> IT</span>
     </span>
