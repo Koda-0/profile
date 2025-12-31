@@ -56,7 +56,7 @@ export default function Index() {
       <nav className="nav">
         <h2 className="logo">
           <a href="#">
-            Sabri <i className="fas fa-fire"></i>
+            Sabri
           </a>
         </h2>
 
@@ -95,11 +95,21 @@ export default function Index() {
     </p>
 
     <span className="info">
-      <a href="#">Github</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Gmail</a>
-      <a href="#">Instagram</a>
-      <button>DOWNLOAD CV</button>
+      <a href="#">
+  <i style={{ color: "white" }}
+ className="fa-brands fa-github"></i> Github
+</a>
+
+      <a href="#"><i style={{color:"white"}} className="fa-brands fa-linkedin"></i> Linkedin</a>
+<a  href="mailto:example@gmail.com">
+  <i style={{color:"white"}} className="fa-solid fa-envelope"></i> Gmail
+</a>
+
+<a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+  <i style={{color:"white"}} className="fa-brands fa-instagram"></i> Instagram
+</a>
+
+      <button style={{color:"white"}}>DOWNLOAD CV <i style={{color:"white"}} className="fas fa-download"></i></button>
     </span>
 
   </div>
@@ -309,7 +319,7 @@ export default function Index() {
     {/* Right Side: Contact Info */}
     <div className="info-side">
       <div className="info-card">
-        <span className="icon">✉️</span>
+        <span className="icon"><i className="fas fa-envelope"></i></span>
         <div>
           <h4>Email</h4>
           <a href="mailto:ishimwengambasabri@gmail.com">ishimwengambasabri@gmail.com</a>
@@ -317,7 +327,7 @@ export default function Index() {
       </div>
 
       <div className="info-card">
-        <span className="icon">📞</span>
+        <span className="icon"><i className="fas fa-phone"></i></span>
         <div>
           <h4>Phone</h4>
           <a href="tel:+250783993391">+250 783 993 391</a>
@@ -325,7 +335,8 @@ export default function Index() {
       </div>
 
       <div className="info-card">
-        <span className="icon">📍</span>
+        <span className="icon"><i className="fa-solid fa-map-location-dot"></i>
+</span>
         <div>
           <h4>Location</h4>
           <p>Kigali, Rwanda</p>
