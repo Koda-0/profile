@@ -81,14 +81,14 @@ export default function Index() {
 
 
     <h1>👋 Hello everyone</h1>
-    <h2>I am {' '}
+    <h3>I am {' '}
     <span>
       <span>Developer</span>
       <span>Designer</span>
-      <span> Gamer</span>
-      <span> IT</span>
+      <span>Gamer</span>
+      <span>IT</span>
     </span>
-  </h2>
+  </h3>
     <p>
       Hi 👋, I am NGAMBA ISHIMWE SABRI, A Software Developer.
       I craft modern and responsive websites and applications.

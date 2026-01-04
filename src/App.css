@@ -251,13 +251,13 @@ button:hover {
   transition: transform 0.3s;
 }
 
-#hero .welcome h2{
+#hero .welcome h3{
     font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
 
-#hero .welcome h2 > span{
+#hero .welcome h3 > span{
    position: relative;
    display: inline-block;
    color: var(--secondary);
@@ -267,7 +267,7 @@ button:hover {
   vertical-align: bottom;
 }
 
-#hero .welcome h2 > span > span{
+#hero .welcome h3 > span > span{
   display: block;
   transition: all 0.3s ease;
   animation: animatewords 5s infinite ease;
