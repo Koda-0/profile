@@ -95,17 +95,17 @@ export default function Index() {
     </p>
 
     <span className="info">
-      <a href="#">
+      <a href="https://github.com/Koda-0" target="_blank">
   <i style={{ color: "white" }}
  className="fa-brands fa-github"></i> Github
 </a>
 
-      <a href="#"><i style={{color:"white"}} className="fa-brands fa-linkedin"></i> Linkedin</a>
-<a  href="mailto:example@gmail.com">
+      <a href="https://www.linkedin.com/in/ishimwengamba-sabri-8ab36737b" target="_blank"><i style={{color:"white"}} className="fa-brands fa-linkedin"></i> Linkedin</a>
+<a  href="mailto:ishimwengambasabri@gmail.com">
   <i style={{color:"white"}} className="fa-solid fa-envelope"></i> Gmail
 </a>
 
-<a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+<a href="https://www.instagram.com/smiler_sabri/" target="_blank" rel="noreferrer">
   <i style={{color:"white"}} className="fa-brands fa-instagram"></i> Instagram
 </a>
 
@@ -346,10 +346,11 @@ export default function Index() {
       <div className="info-card">
         <h4>Follow Me</h4> <br />
         <div className="social-links">
-           <a href="https://github.com/Koda-0" title="Koda-0">Github</a>
-           <a href="https://www.linkedin.com/in/ishimwengamba-sabri-8ab36737b/" title="Ishimwengamba sabri">LinkedIn</a>
-           <a href="mailto:ishimwengambasabri@gmail.com" title="ishimwengambasabri@gmail.com">Gmail</a>
-           <a href="https://www.instagram.com/smiler_sabri/" title="smiler_sabri">Instagram</a>
+           <a href="https://github.com/Koda-0" title="Koda-0" target="_blank">Github</a>
+           <a href="https://www.linkedin.com/in/ishimwengamba-sabri-8ab36737b/" title="Ishimwengamba sabri" target="_blank">LinkedIn</a>
+           <a href="mailto:ishimwengambasabri@gmail.com" title="ishimwengambasabri@gmail.com" target="_blank">Gmail</a>
+           <a href="https://www.instagram.com/smiler_sabri/" title="smiler_sabri" target="_blank">Instagram</a>
+           <a href="https://www.facebook.com/IshimweSabri" title="Ishimwe Sabri" target="_blank">Facebook</a>
         </div>
       </div>
 
