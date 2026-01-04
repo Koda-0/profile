@@ -19,21 +19,20 @@ h2{
   color: var(--secondary);
 }
 
-form{
+.login-container form{
   box-sizing: border-box;
   box-shadow: 0 0 10px var(--secondary);
   padding: 20px;
-  width: 350px;
   border-radius: 5px;
+  width: 350px;
 }
-
-form input {
+ form input {
   padding: 10px 13px;
   border: none;
-  width: 100%;
   background: transparent; 
   border-radius: 10px;
   outline: none;
+  width: 100%;
   border-bottom: 1px solid var(--primary);
   box-sizing: border-box;
   font-size: 16px;

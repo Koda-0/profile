@@ -216,8 +216,8 @@ export default function Index() {
           target="_blank"
           rel="noopener noreferrer"
           className="project-link"
-        >
-          View Project
+          >
+          View Project{'      '}<i className="fas fa-external-link-alt"></i>
         </a>
       </div>
     </div>
@@ -238,7 +238,7 @@ export default function Index() {
           rel="noopener noreferrer"
           className="project-link"
         >
-          View Project
+          View Project {'      '}<i className="fas fa-external-link-alt"></i>
         </a>
       </div>
     </div>
