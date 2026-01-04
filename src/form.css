@@ -33,6 +33,7 @@ h2{
   border-radius: 10px;
   outline: none;
   width: 100%;
+  color: var(--primary);
   border-bottom: 1px solid var(--primary);
   box-sizing: border-box;
   font-size: 16px;
