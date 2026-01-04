@@ -5,44 +5,39 @@
     --green: #00ff00;
 }
 
-.login-container {
+.login-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
-
-h2{
-  text-align: center;
-  font-size: 30px;
-  color: var(--secondary);
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background);
 }
 
 form{
-  box-sizing: border-box;
-  box-shadow: 0px 0px 10px 4px var(--primary);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-form input {
+  box-shadow: 0 0 10px var(--secondary);
+  padding: 40px 30px;
+  border-radius: 5px;
   width: 300px;
-  padding: 10px 13px;
-  border: 2px solid #ccc; 
-  border-radius: 10px;
-  box-sizing: border-box;
-  font-size: 16px;
-  transition: all 0.3s ease; 
 }
 
-form input:focus {
-  border-color: #a855f7;
-  box-shadow: 0 0 8px #a855f7;
+form input{
+  border: none;
+  border-bottom: 1px solid var(--primary);
+  background: transparent;
+  border-radius: 5px;
+  color: var(--primary);
+  margin-bottom: 15px;
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
   outline: none;
 }
 
-form button{
+h2{
+  color: var(--secondary);
+  text-align: center;
+}
+button{
   width: 100%;
 }
 
