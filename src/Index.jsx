@@ -128,7 +128,7 @@ export default function Index() {
     </p>
 
     <p className="description">
-      Hello, I'm Sabri, a student at INSTITUT DON BOSCO KABARONDO TSS with a passion for crafting innovative digital solutions from Rwanda.
+      Hello, I'm NGAMBA ISHIMWE Sabri, a student at INSTITUT DON BOSCO KABARONDO TSS with a passion for crafting innovative digital solutions from Rwanda.
       With experience in the tech industry, I’ve honed my skills in web development, UI/UX design, and IT consulting.
       <br /><br />
       My journey began with curiosity about how things work, leading me into coding and design.
